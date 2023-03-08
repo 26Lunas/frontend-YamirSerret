@@ -1,0 +1,16 @@
+<form #driverForm="ngForm" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" name="name" id="name" [(ngModel)]="driver && driver.first_name" class="form-control" required>
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" name="email" id="email" [(ngModel)]="driver && driver.email" class="form-control" required>
+    </div>
+    <div class="mb-3">
+      <label for="phone" class="form-label">Phone</label>
+      <input type="text" name="phone" id="phone" [(ngModel)]="driver && driver.phone" class="form-control" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Update Driver</button>
+  </form>
+  

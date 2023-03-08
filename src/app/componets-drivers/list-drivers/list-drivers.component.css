@@ -1,0 +1,23 @@
+
+.edit{
+    color: rgba(16, 117, 212, 0.836);
+    cursor: pointer;
+}
+.edit:hover{
+    color: blue;
+}
+
+
+
+.delete{
+    color: brown;
+    cursor: pointer;
+}
+.delete:hover{
+    color: red;
+}
+
+.cont-tabla{
+    width: 80% ;
+    margin: auto;
+}
